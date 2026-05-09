@@ -25,7 +25,8 @@ switch(myDay){
     	today = "Sunday";
  	break;
 
- 	case 2:
+ 	// case 2:
+    case 5:
    		today = "Tuesday";
         coffee = {
             name:"Bubble Tea",
