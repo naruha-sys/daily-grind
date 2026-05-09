@@ -23,10 +23,29 @@ switch(myDay){
 
  	case 0:
     	today = "Sunday";
+        coffee = {
+            name:"Caramel Latte",
+            pic:"caramel-latte.jpg",
+            alt:"A pic of a yummy caramel latte.",
+            color:"blue",
+            day:"Sunday",
+            desc:`I like me some Caramel Latte!`
+        };
  	break;
 
- 	// case 2:
-    case 5:
+    case 1:
+    	today = "Monday";
+        coffee = {
+            name:"Cold Brew",
+            pic:"cold-brew.jpg",
+            alt:"A pic of a yummy cold brew.",
+            color:"yellow",
+            day:"Monday",
+            desc:`I like me some Cold Brew!`
+        };
+ 	break;
+ 	
+    case 2:
    		today = "Tuesday";
         coffee = {
             name:"Bubble Tea",
@@ -35,6 +54,54 @@ switch(myDay){
             color:"pink",
             day:"Tuesday",
             desc:`I like me some Bubble Tea!`
+        };
+ 	break;
+
+    case 3:
+    	today = "Wednesday";
+        coffee = {
+            name:"Drip",
+            pic:"drip.jpg",
+            alt:"A pic of a yummy drip.",
+            color:"red",
+            day:"Wednesday",
+            desc:`I like me some Drip!`
+        };
+ 	break;
+
+    case 4:
+    	today = "Thursday";
+        coffee = {
+            name:"Frappaccino",
+            pic:"frappaccino.jpg",
+            alt:"A pic of a yummy frappaccino.",
+            color:"purple",
+            day:"Thursday",
+            desc:`I like me some Frappaccino!`
+        };
+ 	break;
+
+    case 5:
+    	today = "Friday";
+        coffee = {
+            name:"Mocha",
+            pic:"mocha.jpg",
+            alt:"A pic of a yummy mocha.",
+            color:"orange",
+            day:"Friday",
+            desc:`I like me some Mocha!`
+        };
+ 	break;
+
+    case 6:
+    	today = "Saturday";
+        coffee = {
+            name:"Pumpkin Spice Latte",
+            pic:"pumpkin-spice-latte.jpg",
+            alt:"A pic of a yummy pumpkin spice latte.",
+            color:"green",
+            day:"Saturday",
+            desc:`I like me some Pumpkin Spice Latte!`
         };
  	break;
 
