@@ -24,8 +24,7 @@ switch(myDay){
     	today = "Sunday";
  	break;
 
- 	// case 2:
-    case 5:
+ 	case 2:
    		today = "Tuesday";
         coffee = {
             name:"Bubble Tea",
@@ -44,4 +43,18 @@ switch(myDay){
 
 console.log(coffee);
 
-alert(today);
+alert(coffeeTemplate(coffee));
+
+function coffeeTemplate(coffee){
+    let myReturn = "";
+
+    myReturn += `
+        <p>
+            <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee">
+            <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong>${coffee.name}</strong> ${coffee.desc}
+        </p>
+    `;
+
+    return myReturn;
+}
+
