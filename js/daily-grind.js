@@ -45,6 +45,8 @@ console.log(coffee);
 
 alert(coffeeTemplate(coffee));
 
+document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
+
 function coffeeTemplate(coffee){
     let myReturn = "";
 
