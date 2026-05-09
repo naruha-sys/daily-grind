@@ -18,6 +18,22 @@ let myDate = new Date();
 let myDay = myDate.getDay();
 let today = "";
 let coffee = {};
+const dayMapping = {
+    'Sunday': 0,
+    'Monday': 1,
+    'Tuesday': 2,
+    'Wednesday': 3,
+    'Thursday': 4,
+    'Friday': 5,
+    'Saturday': 6
+};
+
+const urlParams = new URLSearchParams(window.location.search);
+const dayParam = urlParams.get('day');
+
+if (dayParam && dayMapping.hasOwnProperty(dayParam)) {
+    myDay = dayMapping[dayParam];
+}
 
 switch(myDay){
 
