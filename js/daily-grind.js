@@ -17,6 +17,7 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = "";
+let coffee = {};
 
 switch(myDay){
 
@@ -45,6 +46,7 @@ console.log(coffee);
 
 alert(coffeeTemplate(coffee));
 
+//Adds coffee to page?
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 
 function coffeeTemplate(coffee){
